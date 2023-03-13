@@ -28,7 +28,7 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#">
-                  Jobs
+                  Works
                 </a>
               </li>
               <li className="nav-item">

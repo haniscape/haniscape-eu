@@ -16,10 +16,9 @@ import haGrob from "./img/ha-grob.jpeg";
 function Home() {
   return (
     <div className="container">
-      
       <div className="row mx-auto  p-1 mb-2 mt-5 ">
-      <h2 className="border-bottom p-1 ">BAUDIENSTLEISTUNGEN</h2>
-      <h4>CONSTRUCTION SERVICES</h4>
+        <h2 className="border-bottom p-1 ">BAUDIENSTLEISTUNGEN</h2>
+        <h4>CONSTRUCTION SERVICES</h4>
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">
           <div className="col">
             <div className="card h-100">
@@ -97,8 +96,8 @@ function Home() {
       </div>
 
       <div className="row mx-auto  pb-1 mb-2 mt-5">
-      <h2 className="border-bottom">GEBÄUDEREINIGUNG</h2>
-      <h3>BUILDING CLEANING</h3>
+        <h2 className="border-bottom">GEBÄUDEREINIGUNG</h2>
+        <h3>BUILDING CLEANING</h3>
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">
           <div className="col">
             <div className="card h-100">
@@ -131,15 +130,17 @@ function Home() {
       </div>
 
       <div className="row mx-auto  pb-1 mb-2 mt-5">
-      <h2 className="border-bottom">AUSGEWÄHLTE HANDWERKER</h2>
-      <h3>FEATURED HANDYMEN</h3>
+        <h2 className="border-bottom">AUSGEWÄHLTE HANDWERKER</h2>
+        <h3>FEATURED HANDYMEN</h3>
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">
           <div className="col">
             <div className="card h-100">
               <img src={faGhonaim} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Fa. Gonaim</h5>
-                <p className="card-text">Maler / Renovierung / Abbruch / Trockenbau</p>
+                <p className="card-text">
+                  Maler / Renovierung / Abbruch / Trockenbau
+                </p>
               </div>
             </div>
           </div>
@@ -155,8 +156,65 @@ function Home() {
         </div>
       </div>
 
+      <div className="row mx-auto  pb-1 mb-2 mt-5">
+        <h2 className="border-bottom">KUNDENBERICHTE</h2>
+        <h3>CLIENTS TESTIMONIALS</h3>
 
 
+
+
+
+        <div id="carouselExampleIndicators" className="carousel slide py-5 bg-body-secondary">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+    <figure className="text-center">
+          <blockquote className="blockquote">
+            <p>Exzellenter und zuverlässiger Service; sehr professionell und pünktlich, wird Fa einstellen. Ghonaim bedient sicher wieder.</p>
+          </blockquote>
+          <figcaption className="blockquote-footer">
+          Ein zufriedener Kunde im<cite title="Source Title"> Dienstleistungsportal haniscape.eu</cite>
+          </figcaption>
+        </figure>
+    </div>
+    <div className="carousel-item">
+    <figure className="text-center">
+          <blockquote className="blockquote">
+            <p>Exzellenter und zuverlässiger Service; sehr professionell und pünktlich, wird Fa einstellen. Ghonaim bedient sicher wieder.</p>
+          </blockquote>
+          <figcaption className="blockquote-footer">
+          Ein zufriedener Kunde im<cite title="Source Title"> Dienstleistungsportal haniscape.eu</cite>
+          </figcaption>
+        </figure>
+    </div>
+    <div className="carousel-item">
+    <figure className="text-center">
+          <blockquote className="blockquote">
+            <p>Exzellenter und zuverlässiger Service; sehr professionell und pünktlich, wird Fa einstellen. Ghonaim bedient sicher wieder.</p>
+          </blockquote>
+          <figcaption className="blockquote-footer">
+          Ein zufriedener Kunde im<cite title="Source Title"> Dienstleistungsportal haniscape.eu</cite>
+          </figcaption>
+        </figure>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+      </div>
     </div>
   );
 }

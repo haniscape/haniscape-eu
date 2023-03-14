@@ -152,15 +152,6 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card h-100">
-              <img src={painter} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Glasreinigung</h5>
-                <p className="card-text">Glass cleaning</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import haniscapeLogoDark from "./img/haniscape-logo-dark.svg";
+import haniscapeLogoWhite from "./img/haniscape-logo-white.svg";
 
 function Header() {
   return (
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="/#">
-            <img src={haniscapeLogoDark} alt="Haniscape logo" height="32" />
+            <img src={haniscapeLogoWhite} alt="Haniscape logo" height="32" />
           </a>
           <button
             className="navbar-toggler"

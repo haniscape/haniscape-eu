@@ -10,10 +10,13 @@ import demolition from "./img/demolition.jpeg";
 import cleanglass from "./img/cleanglass.jpeg";
 import cleanhouses from "./img/cleanhouses.jpeg";
 import cleanoffice from "./img/cleanoffice.jpeg";
+import faGhonaim from "./img/fa-ghonaim.jpeg";
+import haGrob from "./img/ha-grob.jpeg";
 
 function Home() {
   return (
     <div className="container">
+      
       <div className="row mx-auto  p-1 mb-2 mt-5 ">
       <h2 className="border-bottom p-1 ">BAUDIENSTLEISTUNGEN</h2>
       <h4>CONSTRUCTION SERVICES</h4>
@@ -126,6 +129,43 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="row mx-auto  pb-1 mb-2 mt-5">
+      <h2 className="border-bottom">AUSGEWÄHLTE HANDWERKER</h2>
+      <h3>FEATURED HANDYMEN</h3>
+        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">
+          <div className="col">
+            <div className="card h-100">
+              <img src={faGhonaim} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Fa. Gonaim</h5>
+                <p className="card-text">Maler / Renovierung / Abbruch / Trockenbau</p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img src={haGrob} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">H.A GROB</h5>
+                <p className="card-text">Transport / Umzug / Kurier</p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <img src={painter} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Glasreinigung</h5>
+                <p className="card-text">Glass cleaning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
   );
 }

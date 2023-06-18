@@ -13,7 +13,7 @@ function Footer() {
       <a href="/" className="mb-3 me-5 mb-md-0 text-decoration-none lh-1">
       <img src={haniscapeLogoMono} alt="Haniscape logo" height="26" />
       </a>
-      <span className="mb-3 mb-md-0 text-muted">© 2023 UAB Damasteksas.</span>
+      <span className="mb-3 mb-md-0 text-muted">©2023 Haniscape Solutions.</span>
     </div>
 
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

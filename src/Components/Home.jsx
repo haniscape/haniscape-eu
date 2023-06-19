@@ -17,6 +17,10 @@ function Home() {
   return (
     <div className="container">
       <div className="row mx-auto  p-1 mb-2 mt-5 ">
+      <h1>Haniscape Solutions (Haniscape Import Export Est.)</h1>
+      </div>
+
+      <div className="row mx-auto  p-1 mb-2 mt-5 ">
         <h2 className="border-bottom p-1 ">BAUDIENSTLEISTUNGEN</h2>
         <h4>CONSTRUCTION SERVICES</h4>
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">

@@ -6,7 +6,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="/#">
-            <img src={haniscapeLogoWhite} alt="Haniscape logo" height="32" />
+            <img src={haniscapeLogoWhite} alt="Haniscape Solutions (Haniscape Import Export Est.) " height="32" />
           </a>
           <button
             className="navbar-toggler"

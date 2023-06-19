@@ -11,7 +11,8 @@ function Footer() {
       <img src={haniscapeLogoMono} alt="Haniscape logo" height="26" />
       </a>
       <span className="mb-3 mb-md-0 text-muted">©2023 Haniscape Solutions (Haniscape Import Export Est.)</span>
-      <span className="ms-5 mb-md-0 text-muted">info@haniscape.eu</span>
+      <span className="ms-4 mb-md-0 text-muted">info@haniscape.eu</span>
+      <span className="ms-4 mb-md-0 text-muted">Alexandria, EGYPT</span>
     </div>
 
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

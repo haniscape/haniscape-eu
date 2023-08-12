@@ -3,7 +3,7 @@
 }
 
 .card-image {
-  min-height: 150px;
+  max-height: 120px;
 }
 
 

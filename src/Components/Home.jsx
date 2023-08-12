@@ -26,9 +26,9 @@ function Home() {
           </div>
           <div className="col">
             <div className="card h-100">
-              <img src={readywalls} className="card-img-top" alt="..." />
+              <img src={mobileApp} className="card-img-top" alt="Haniscape Mobile development" />
               <div className="card-body">
-                <h5 className="card-title">Web Application Development</h5>
+                <h5 className="card-title">Mobile Application Development</h5>
                 <p className="card-text">High Quality React Native development</p>
               </div>
             </div>

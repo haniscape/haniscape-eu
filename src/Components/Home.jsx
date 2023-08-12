@@ -17,7 +17,7 @@ function Home() {
         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2">
           <div className="col">
             <div className="card h-100">
-              <img src={webApp} className="card-img-top" alt="..." />
+              <img src={webApp} className="card-img-top  card-image" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Web Application Development</h5>
                 <p className="card-text">Using latest React and Next technologies</p>
@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div className="col">
             <div className="card h-100">
-              <img src={mobileApp} className="card-img-top" alt="Haniscape Mobile development" />
+              <img src={mobileApp} className="card-img-top card-image" alt="Haniscape Mobile development" />
               <div className="card-body">
                 <h5 className="card-title">Mobile Application Development</h5>
                 <p className="card-text">High Quality React Native development</p>

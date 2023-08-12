@@ -28,12 +28,12 @@ function Header() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#">
-                  Works
+                  Web Apps
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#">
-                  Handymen
+                  Mobile Apps
                 </a>
               </li>
             </ul>
